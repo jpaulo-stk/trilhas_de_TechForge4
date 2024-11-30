@@ -205,7 +205,7 @@ function calcularSalariosComBonus(funcionarios: Funcionario[]): void {
   });
 }
 
-const gerente = new Gerente("THIAGO FEIO", 5000);
-const operario = new Operario("JOAO LINDO", 2000);
+const gerente = new Gerente("JOAO LINDO", 5000);
+const operario = new Operario("THIAGO FEIO", 2000);
 
 calcularSalariosComBonus([gerente, operario]);

@@ -159,6 +159,6 @@ function calcularSalariosComBonus(funcionarios) {
         console.log(`oia o bônus: ${funcionario.calcularSalarioComBonus()}`);
     });
 }
-const gerente = new Gerente("THIAGO FEIO", 5000);
-const operario = new Operario("JOAO LINDO", 2000);
+const gerente = new Gerente("JOAO LINDO", 5000);
+const operario = new Operario("THIAGO FEIO", 2000);
 calcularSalariosComBonus([gerente, operario]);
