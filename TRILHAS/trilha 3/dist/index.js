@@ -1,5 +1,6 @@
 "use strict";
 //ex1
+console.log("EX 1 --------------------------------------------------------------------------------------------");
 class Veiculo {
     mover() {
         console.log("O veiculo ta no gas chefe");
@@ -19,6 +20,8 @@ const carro = new Carro();
 const bicicleta = new Bicicleta();
 carro.mover();
 bicicleta.mover();
+//ex2
+console.log("EX 2 --------------------------------------------------------------------------------------------");
 class Circulo {
     constructor(raio) {
         this.raio = raio;
@@ -56,6 +59,7 @@ const figuras = [
 ];
 imprimirAreas(figuras);
 //ex3
+console.log("EX 3 --------------------------------------------------------------------------------------------");
 class Pagamento {
     processar() {
         throw new Error("Método processar() not implementing, toma o englsh");
@@ -87,6 +91,7 @@ const pagamentoCartao = new PagamentoCartao("1234567812345678");
 const pagamentoBoleto = new PagamentoBoleto();
 processarPagamentos([pagamentoCartao, pagamentoBoleto]);
 //ex4
+console.log("EX 4 --------------------------------------------------------------------------------------------");
 class Animal {
     constructor(energiaInicial) {
         this.energia = energiaInicial;
@@ -132,6 +137,7 @@ leao.statusEnergia();
 passaro.comer();
 passaro.statusEnergia();
 //ex 5
+console.log("EX 5 --------------------------------------------------------------------------------------------");
 class Funcionario {
     constructor(nome, salario) {
         this.nome = nome;

@@ -1,5 +1,9 @@
 //ex1
 
+console.log(
+  "EX 1 --------------------------------------------------------------------------------------------"
+);
+
 class Veiculo {
   mover(): void {
     console.log("O veiculo ta no gas chefe");
@@ -25,6 +29,10 @@ carro.mover();
 bicicleta.mover();
 
 //ex2
+
+console.log(
+  "EX 2 --------------------------------------------------------------------------------------------"
+);
 
 interface FiguraGeometrica {
   calcularArea(): number;
@@ -69,6 +77,11 @@ const figuras: FiguraGeometrica[] = [
 imprimirAreas(figuras);
 
 //ex3
+
+console.log(
+  "EX 3 --------------------------------------------------------------------------------------------"
+);
+
 class Pagamento {
   processar(): void {
     throw new Error("Método processar() not implementing, toma o englsh");
@@ -108,6 +121,10 @@ const pagamentoBoleto = new PagamentoBoleto();
 processarPagamentos([pagamentoCartao, pagamentoBoleto]);
 
 //ex4
+
+console.log(
+  "EX 4 --------------------------------------------------------------------------------------------"
+);
 
 class Animal {
   private energia: number;
@@ -167,6 +184,10 @@ passaro.comer();
 passaro.statusEnergia();
 
 //ex 5
+console.log(
+  "EX 5 --------------------------------------------------------------------------------------------"
+);
+
 abstract class Funcionario {
   private nome: string;
   private salario: number;

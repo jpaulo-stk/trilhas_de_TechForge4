@@ -1,5 +1,8 @@
 // ex 1
 
+console.log(
+  "EX 1 --------------------------------------------------------------------------------------------"
+);
 interface Produto {
   id: number;
   name: string;
@@ -28,6 +31,10 @@ Loja.values();
 
 //ex 2
 
+console.log(
+  "EX 2 --------------------------------------------------------------------------------------------"
+);
+
 interface documento {
   titulo: string;
   conteudo: string;
@@ -55,6 +62,10 @@ const exbindo = new Texto(
 exbindo.exibir();
 
 // ex3
+
+console.log(
+  "EX 3 --------------------------------------------------------------------------------------------"
+);
 
 interface ProdutoLoja {
   codigo: number;
@@ -86,6 +97,10 @@ const produto2 = loja.searchProduto(2);
 console.log(produto2 ? `Produto: ${produto2.nome}` : " Hoje não chefe");
 
 //ex 4
+
+console.log(
+  "EX 4 --------------------------------------------------------------------------------------------"
+);
 
 interface Livro {
   titulo: string;
@@ -126,6 +141,11 @@ livrosDisponiveis.forEach((livro) => {
 });
 
 // ex 5
+
+console.log(
+  "EX 5 --------------------------------------------------------------------------------------------"
+);
+
 interface LivroBiblioteca {
   titulo: string;
   autor: string;
