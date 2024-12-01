@@ -8,6 +8,6 @@
     "skipLibCheck": true, // Pula a verificação de tipos em arquivos de biblioteca
     "outDir": "./dist" // Pasta de saída para o código compilado
   },
-  "include": ["src/**/*", "dist/index.js"], // Inclui todos os arquivos TypeScript na pasta src
+  "include": ["src/**/*"], // Inclui todos os arquivos TypeScript na pasta src
   "exclude": ["node_modules"] // Exclui a pasta node_modules
 }
